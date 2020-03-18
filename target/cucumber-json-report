@@ -1,0 +1,550 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#before"
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 144622800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the computer is working",
+            "match": {
+              "location": "LoanStep.the_computer_is_working()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 746000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": "to-sanction-loan;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 56700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2403500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the person is working in \"govt\" office",
+            "match": {
+              "arguments": [
+                {
+                  "val": "govt",
+                  "offset": 26
+                }
+              ],
+              "location": "LoanStep.the_person_is_working_in_office(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the credit score is more than \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "LoanStep.the_credit_score_is_more_than(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "grant loan of \"2lakhs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2lakhs",
+                  "offset": 15
+                }
+              ],
+              "location": "LoanStep.grant_loan_of(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@sanity"
+          },
+          {
+            "line": 1,
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#before"
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 88600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the computer is working",
+            "match": {
+              "location": "LoanStep.the_computer_is_working()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 109000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "",
+        "description": "",
+        "id": "to-sanction-loan;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 54200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 156000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the person is working in \"govt\" office",
+            "match": {
+              "arguments": [
+                {
+                  "val": "govt",
+                  "offset": 26
+                }
+              ],
+              "location": "LoanStep.the_person_is_working_in_office(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the credit score is more than \"500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 31
+                }
+              ],
+              "location": "LoanStep.the_credit_score_is_more_than(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "grant loan of \"3lakhs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3lakhs",
+                  "offset": 15
+                }
+              ],
+              "location": "LoanStep.grant_loan_of(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@sanity"
+          },
+          {
+            "line": 1,
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#before"
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 102000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the computer is working",
+            "match": {
+              "location": "LoanStep.the_computer_is_working()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 76000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "",
+        "description": "",
+        "id": "to-sanction-loan;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 64500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 160300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the person is working in \"private\" office",
+            "match": {
+              "arguments": [
+                {
+                  "val": "private",
+                  "offset": 26
+                }
+              ],
+              "location": "LoanStep.the_person_is_working_in_office(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the credit score is more than \"600\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "600",
+                  "offset": 31
+                }
+              ],
+              "location": "LoanStep.the_credit_score_is_more_than(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "grant loan of \"4lakhs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4lakhs",
+                  "offset": 15
+                }
+              ],
+              "location": "LoanStep.grant_loan_of(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@sanity"
+          },
+          {
+            "line": 1,
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#before"
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 105200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the computer is working",
+            "match": {
+              "location": "LoanStep.the_computer_is_working()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 93900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "",
+        "description": "",
+        "id": "to-sanction-loan;;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 77400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 199600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the person is working in \"private\" office",
+            "match": {
+              "arguments": [
+                {
+                  "val": "private",
+                  "offset": 26
+                }
+              ],
+              "location": "LoanStep.the_person_is_working_in_office(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the credit score is more than \"650\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "650",
+                  "offset": 31
+                }
+              ],
+              "location": "LoanStep.the_credit_score_is_more_than(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "grant loan of \"5lakhs\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5lakhs",
+                  "offset": 15
+                }
+              ],
+              "location": "LoanStep.grant_loan_of(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@sanity"
+          },
+          {
+            "line": 1,
+            "name": "@loan"
+          }
+        ]
+      }
+    ],
+    "name": "to sanction loan",
+    "description": "",
+    "id": "to-sanction-loan",
+    "keyword": "Feature",
+    "uri": "creditScore.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@sanity"
+      },
+      {
+        "line": 1,
+        "name": "@loan"
+      }
+    ]
+  }
+]
